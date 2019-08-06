@@ -87,5 +87,6 @@ RSpec.configure do |config|
   end
 
   # Add json method that parses json into ruby Hash
-  config.include RequestSpecHelper, type: :request
+  config.include RequestSpecHelper
+  config.include ControllerSpecHelper
 end
