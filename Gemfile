@@ -55,3 +55,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bcrypt', '~> 3.1.7'
 # JSON Web Token
 gem 'jwt'
+# Active model serializer
+gem 'active_model_serializers', '~> 0.10.0' 
