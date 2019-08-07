@@ -32,6 +32,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.5'
+  gem 'faker'
 end
 
 group :development do
@@ -44,7 +45,6 @@ end
 group :test do
   gem 'factory_bot_rails', '~> 4.0'
   gem 'shoulda-matchers', '~> 3.1'
-  gem 'faker'
   gem 'database_cleaner'
 end
 
@@ -56,4 +56,6 @@ gem 'bcrypt', '~> 3.1.7'
 # JSON Web Token
 gem 'jwt'
 # Active model serializer
-gem 'active_model_serializers', '~> 0.10.0' 
+gem 'active_model_serializers', '~> 0.10.0'
+# Pagination
+gem 'will_paginate', '~> 3.1.0'
